@@ -31,6 +31,9 @@ gene_counts$color[gene_counts$logexpr <3  & gene_counts$logexpr >-3]="darkgray"
 
 # plot using the new color
 plot(gene_counts$logexpr, col=gene_counts$color, xlab="gene index", ylab="log2(treated / control)")
+<<<<<<< HEAD
 
 install.packages("vcd")
 library(vcd)
+=======
+>>>>>>> aef99f42daa044e0ba75e276f160110cee7269f6
